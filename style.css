@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.google.com/share?selection.family=Anta|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900');
+
+
+.left {
+height: 100%;
+    width: 25vw;
+ 
+    padding: 10px;
+  
+}
+
+.svg {
+    color:white;
+    height:34px;
+    width:44px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body {
+   overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+.right {
+    
+    width: 75vw;
+    left:353px
+}
+
+.home {
+    font-family: sans-serif;
+
+}
+.seperation{
+    height: 7px;
+    background-color: rgb(10, 8, 8);
+
+}
+
+.home ul li {
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    list-style-type: none;
+    padding-top: 14px;
+    font-weight: bold;
+    align-items: center;
+
+}
+.cardcontainer{
+    max-height: 30vw;
+    display:flex;
+    overflow-y:scroll;
+}
+.card > img{
+    height:173px;
+    border-radius: 50%;
+    width: 173px;
+}
+.card2 > img{
+    height:173px;
+  
+    width: 173px;
+}
+
+.heading {
+    font-family: sans-serif;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding: 23px 14px;
+    padding-top: 14px;
+    font-weight: bold;
+    font-size: 13px;
+    bottom: 0;
+   
+}
+
+.heading img {
+    width: 30px;
+}
+
+.library {
+    min-height: 60vh;
+    position: relative;
+}
+
+.footer {
+    display:flex;
+    width:153px;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+    position: absolute;
+    padding :13px 0;
+    margin: 12px  0;
+    padding: 0 24px;
+    font-family: sans-serif;
+    
+
+}
+
+.footer a {
+    color: grey;
+
+}
+
+.right {
+    margin: 16px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+
+.header>* {
+    padding: 20px;
+}
+
+.spotify-playlist {
+    padding: 16px;
+    font-family: sans-serif;
+}
+
+
+.btn{
+    margin: 0 12px;
+}
+
+.signup{
+    background-color: rgb(34, 34, 34);
+    color:rgb(99, 102, 101);
+    font-weight: bold;
+    font-size:15px;
+    border:none;
+    outline:none;
+    padding: 3px;
+    cursor:pointer;
+}
+.signup:hover{
+    font-size: 1.01rem;
+    color:white;
+}
+
+.login{
+    background-color:white ;
+    width: 95px;
+    padding:15px;
+    border-radius:34px;
+    font-weight: bold;
+    color: #121212;
+}
+.login:hover{
+    font-size: 1.01rem;
+    color:rgb(27, 5, 5);
+}
+
+
+.card2> img{
+    width:173px;
+    border-radius: 12px;
+    position:absolut;
+
+}
+.heading { 
+    
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding: 23px 14px;
+    padding-top: 14px;
+    font-weight: bold;
+    font-size: 13px;
+    bottom: 0;
+}   
+
+.squarecard { 
+    max-height:17vw;
+    display:flex;
+    overflow-x:scroll;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+ 
+
+   .card2 p{
+    font-family: sans-serif;
+    width: 173px;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+  } 
+
+
+ .play{ 
+     border-radius: 50%;
+    padding: 8px;
+    width: 28px;
+    height: 28px;
+    border: 2px;
+     position: relative;
+    top: 155px;
+    left: 120px; 
+  opacity: 0.3;
+} 
+
+.play:hover{
+    opacity:1;
+    
+    transition: all 0.5s ease-out; 
+}
+
+
+.first{
+    margin: 10px 0;
+    background-color: rgb(42, 46, 45);
+min-width: 160px;
+font-family: sans-serif;
+}
+
+.second{
+  margin: 10px 0;
+    background-color: rgb(42, 46, 45);
+    font-family: sans-serif;
+    min-width: 160px;
+    }
+.library p{
+    margin: 0 5px;
+}
+.library button{
+    margin: 15px 10%;
+}
+
+
+.createplaylist{
+background-color:white ;
+width: 155px;
+height: 40px;
+padding:12px;
+border-radius:34px;
+text-align: center;
+justify-content: center;
+font-weight: bold;
+color: #121212;
+}
+
+.createplaylist:hover{
+    font-size: 1.0rem;
+    color:rgb(27, 5, 5);
+}
+
+
+.favsong{
+    max-height: 190px;
+    overflow-y: scroll;
+}
+.first  h3{
+    padding: 13px;
+    margin: 13px;
+} 
+.second h3{
+    padding: 13px;
+    margin: 13px;
+} 
+.info > * h2{
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    
+    gap: 55px;
+    padding: 20px;
+    margin: 12px;
+    justify-content:center;
+    
+}
+li{
+    list-style: none;
+}
+.box {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+    top: 88vh;
+    left: 2px;
+    border: 10px solid black;
+    position: fixed;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: linear-gradient(to right,#af2896, #509bf5); /* Red to Blue */
+}
+.box p{
+    margin: 12px;
+    font-weight: bold;
+}
+.box button{
+    margin: 42px;
+}
+.box .sign{
+    display: flex;
+    width:103px;
+    padding:12px;
+    height: 30px;
+}
